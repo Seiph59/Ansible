@@ -9,6 +9,7 @@
         state: "present"
     - name: "Start apache service"
       service:
+              erreur
         name: "apache2"
         state: "started"
         enabled: yes
@@ -20,4 +21,3 @@
       service:
         name: "apache2"
         state: "restarted"
-erreur
