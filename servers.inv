@@ -1,0 +1,5 @@
+[apache]
+nodedeb ansible_user=seiph
+
+[apache:vars)
+ansible_python_interpreter=/usr/bin/python3
